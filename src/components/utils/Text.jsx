@@ -8,11 +8,12 @@ const Text = ({
   preheaderStyle,
   headerStyle,
   paragraphStyle,
+  textContainer,
 }) => {
   return (
-    <div>
+    <div className={textContainer}>
       <p className={preheaderStyle}>{preHeader}</p>
-      <h1 className={headerStyle}>{header || 'Skill u'}</h1>
+      <h1 className={headerStyle}>{header}</h1>
       <p className={paragraphStyle}>{firstParagraph}</p>
       <p className={paragraphStyle}>{secondParagraph}</p>
     </div>

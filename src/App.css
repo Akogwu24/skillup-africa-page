@@ -22,3 +22,15 @@ html {
   border-bottom: 1.5px solid rgb(126, 122, 122);
   width: 50px;
 }
+.application-openeing {
+  background-color: rgb(255, 251, 242);
+}
+
+hr {
+  height: 3px;
+  color: rgb(198, 201, 204);
+}
+.card-container {
+  /* width: 500px; */
+  height: 450px;
+}
