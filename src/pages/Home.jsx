@@ -3,6 +3,8 @@ import About from '../layout/About';
 import ApplicationOpening from '../layout/ApplicationOpening';
 import BecomeIntern from '../layout/BecomeIntern';
 import Cards from '../layout/Cards';
+import ContactUs from '../layout/ContactUs';
+import Footer from '../layout/Footer';
 import Header from '../layout/Header';
 import LearningPaths from '../layout/LearningPaths';
 import QuestionAnswers from '../layout/QuestionAnswers';
@@ -20,6 +22,8 @@ const Home = () => {
       <BecomeIntern />
       <Steps />
       <QuestionAnswers />
+      <ContactUs />
+      <Footer />
     </>
   );
 };

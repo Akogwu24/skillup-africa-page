@@ -1,20 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const NavLinks = () => {
+const NavLinks = ({ ulStyles }) => {
   return (
     <nav className=''>
-      <ul className='flex text-xl gap-24 text-green-dark'>
+      <ul className={ulStyles}>
         <li>
-          <a href='#'>Home</a>
+          <Link to='/'>Home</Link>
         </li>
         <li>
-          <a href='#'>About</a>
+          <Link to='/'>About</Link>
         </li>
         <li>
-          <a href='#'>How It Works</a>
+          <Link to='/'>How It Works</Link>
         </li>
         <li>
-          <a href='#'>FAQ</a>
+          <Link to='/'>FAQ</Link>
         </li>
       </ul>
     </nav>

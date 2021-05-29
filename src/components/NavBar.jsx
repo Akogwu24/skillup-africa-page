@@ -8,7 +8,7 @@ const NavBar = () => {
     <div className='flex justify-between items-center'>
       <Logo />
       <div className='flex justify-between items-center gap-24'>
-        <NavLinks />
+        <NavLinks ulStyles='flex text-xl gap-24 text-green-dark' />
         <button className='nav-btn'>
           Apply Now <img src={arrow} alt='btn' />
         </button>

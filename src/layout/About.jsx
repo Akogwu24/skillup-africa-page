@@ -13,9 +13,9 @@ const About = () => {
         <Text
           textContainer=''
           preHeader='What is it about?'
-          preheaderStyle='text-blue text-2xl font-bold'
+          preheaderStyle='red-hat-display text-blue text-2xl font-bold'
           header='About The Internship'
-          headerStyle='text-green text-6xl py-4 font-bold'
+          headerStyle='red-hat-display text-green text-6xl py-4 font-bold'
           firstParagraph='Fusce egestas elit eget lorem. Praesent ac sem eget est egestas volutpat. Fusce a quam. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.'
           paragraphStyle='text-gray text-2xl '
           secondParagraph='Fusce egestas elit eget lorem. Praesent ac sem eget est egestas volutpat. Fusce a quam. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.'

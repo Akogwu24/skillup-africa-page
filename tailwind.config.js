@@ -25,6 +25,7 @@ module.exports = {
       },
       gray: {
         light: '#F5F5F5',
+        semilight: '#D8D8D8',
         DEFAULT: '#4B4F51',
       },
       red: {

@@ -9,7 +9,7 @@ const QuestionAnswers = () => {
   console.log(answers);
   return (
     <section className='faq container my-10'>
-      <div className='h-64 flex justify-center items-center text-center mb-16 mt-32'>
+      <div className='red-hat-display h-64 flex justify-center items-center text-center mb-16 mt-32'>
         <Text
           paragraphStyle='text-5xl text-green font-bold'
           header='Questions and Answers'

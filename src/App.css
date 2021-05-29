@@ -17,6 +17,9 @@ html {
   box-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
+.red-hat-display {
+  font-family: 'Red Hat Display', sans-serif;
+}
 
 .date {
   border-bottom: 1.5px solid rgb(126, 122, 122);
@@ -53,7 +56,10 @@ hr {
 }
 
 .faq hr {
-  width: 68%;
+  width: 67.5%;
   margin: auto;
   color: rgb(160, 160, 160);
+}
+.steps img {
+  width: 80%;
 }
