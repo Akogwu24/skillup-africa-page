@@ -5,8 +5,6 @@ import questions from '../FAQData';
 import { answers } from '../FAQData';
 
 const QuestionAnswers = () => {
-  console.log(questions);
-  console.log(answers);
   return (
     <section className='faq container my-10'>
       <div className='red-hat-display h-64 flex justify-center items-center text-center mb-16 mt-32'>

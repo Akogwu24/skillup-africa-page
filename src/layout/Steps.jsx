@@ -13,7 +13,7 @@ import four from '../assets/icons/04.svg';
 const Steps = () => {
   return (
     <>
-      <section className=' container my-10 px-44 flex justify-between gap-20 items-center'>
+      <section className='step-container container my-10 2xl:px-44 flex justify-between gap-20 items-center'>
         <div className='flex w-3/5'>
           <div className='number-one mr-10'>
             <img src={one} alt='one' />
@@ -34,7 +34,7 @@ const Steps = () => {
         </div>
       </section>
 
-      <section className='container my-20 px-44 flex justify-between gap-20 items-center'>
+      <section className='step-container container my-20 2xl:px-44 flex justify-between gap-20 items-center'>
         <div className='steps w-2/5'>
           <img className='w-full' src={manLeft} alt='mask girl' />
         </div>
@@ -53,7 +53,7 @@ const Steps = () => {
         </div>
       </section>
 
-      <section className='container my-20 px-44 flex justify-between gap-20 items-center'>
+      <section className='step-container container my-20 2xl:px-44 flex justify-between gap-20 items-center'>
         <div className='flex w-3/5'>
           <div className='number-one mr-10'>
             <img src={three} alt='one' />
@@ -73,7 +73,7 @@ const Steps = () => {
         </div>
       </section>
 
-      <section className='container my-20 px-44 flex justify-between gap-20 items-center'>
+      <section className='step-container container my-20 2xlpx-44 flex justify-between gap-20 items-center'>
         <div className='steps w-2/5'>
           <img className='w-full' src={girlLeft} alt='girl-left' />
         </div>

@@ -5,6 +5,7 @@ import Text from './utils/Text';
 import Calender from './Calender';
 
 const Hero = () => {
+  let timeElapsed = false;
   return (
     <section className='flex justify-between items-center'>
       <div className='max-w-3xl'>
@@ -21,7 +22,13 @@ const Hero = () => {
           btnStyles='bg-blue text-2xl py-5 px-16 rounded-xl'
           children='Get Started'
         />
-        <Calender />
+        {timeElapsed ? (
+          <h1 className='text-6xl font-semibold mt-8'>
+            Application is closed, till Next cohort
+          </h1>
+        ) : (
+          <Calender />
+        )}
       </div>
       <div className='w-1/2'>
         <img src={bro} alt='' />
