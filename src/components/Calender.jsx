@@ -9,7 +9,7 @@ const Calender = ({ timeElapsed }) => {
 
   const countTimer = () => {
     const currentDate = new Date();
-    const closingDate = new Date(2021, 4, 30);
+    const closingDate = new Date(2021, 5, 1);
     const currentTimeInMilliSeconds = currentDate.getTime();
     const closingTimeInMilliSeconds = closingDate.getTime();
     const timeTillClosingInMilliSeconds =
@@ -24,15 +24,14 @@ const Calender = ({ timeElapsed }) => {
     seconds %= 60;
     minutes = minutes % 60;
     hours %= 24;
-    // days %= 30;
+
     seconds = seconds < 10 ? '0' + seconds : seconds;
     minutes = minutes < 10 ? '0' + minutes : minutes;
     hours = hours < 10 ? '0' + hours : hours;
     days = days < 10 ? '0' + days : days;
 
-    if (closingTimeInMilliSeconds < 0) {
+    if (timeTillClosingInMilliSeconds <= 0) {
       clearInterval();
-      timeElapsed = true;
     } else {
       setSecondsTimer(seconds);
       setMinutesTimer(minutes);
@@ -40,7 +39,7 @@ const Calender = ({ timeElapsed }) => {
       setDaysTimer(days);
     }
   };
-
+  // countTimer();
   setInterval(countTimer, 1000);
 
   return (

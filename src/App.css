@@ -70,4 +70,10 @@ hr {
   .nav-bar {
     padding-bottom: 2rem;
   }
-} ;
+  .requirement-container {
+    height: 30%;
+  }
+}
+
+@media (max-width: 900px) {
+}
