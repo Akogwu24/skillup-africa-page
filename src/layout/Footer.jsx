@@ -10,7 +10,7 @@ import NavLinks from '../components/utils/NavLinks';
 
 const Footer = () => {
   return (
-    <footer className='border-t border-gray-semilight my-10'>
+    <footer className='border-t border-gray-semilight mt-10'>
       <section className='container my-10 flex justify-between items-start'>
         <div className='pl-10'>
           <Logo />
