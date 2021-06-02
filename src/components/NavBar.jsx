@@ -28,14 +28,14 @@ const NavBar = () => {
   });
 
   return (
-    <div className='nav-bar flex justify-between      items-center'>
-      <Logo logoContainerStyle='w-60' />
+    <div className='nav-bar flex justify-between items-center'>
+      <Logo logoContainerStyle='w-44 md:w-60 ' />
 
       <div className='z-10 cursor-pointer md:hidden' onClick={handleClick}>
         {isOpen ? (
-          <AiOutlineClose className='z-10' size={40} />
+          <AiOutlineClose className='z-10' size={30} />
         ) : (
-          <CgMenu className='z-10' size={40} />
+          <CgMenu className='z-10' size={30} />
         )}
       </div>
 

@@ -58,7 +58,7 @@ hr {
 }
 
 .faq hr {
-  width: 67.5%;
+  width: 92%;
   margin: auto;
   color: rgb(160, 160, 160);
 }
@@ -81,9 +81,28 @@ hr {
   }
 }
 
+@media (max-width: 768px) {
+  .nav-bar,
+  .hero {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 650px) {
   .nav-btn {
     width: 120px;
     padding: 1rem;
+  }
+  .nav-bar,
+  .hero {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  .steps img {
+    width: 100%;
+  }
+  .contact-us {
+    width: 80%;
   }
 }

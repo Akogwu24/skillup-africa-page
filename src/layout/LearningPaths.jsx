@@ -11,14 +11,14 @@ const LearningPaths = () => {
         <Text
           paragraphStyle='text-xl text-gray w-11/12 mx-auto '
           header='Learning Paths'
-          headerStyle='text-4xl font-bold mb-5 text-green text-6xl'
+          headerStyle='text-5xl font-bold mb-5 text-green md:text-6xl'
           firstParagraph='Sharpen and build your skills by taking these courses before applying'
         />
       </div>
 
-      <div className='flex justify-between items-center px-20 gap-36 text-center'>
+      <div className='flex flex-col sm:flex-row justify-between items-center px-20 gap-36 text-center sm:px-5 sm:gap-10'>
         <CardComponent
-          cardContainer='card-container w-1/2 p-28 bg-white shadow-2xl border-b-4 border-blue rounded-lg'
+          cardContainer='card-container flex flex-col items-center justify-center sm:w-1/2 md:p-28 bg-white shadow-2xl border-b-4 border-blue rounded-lg sm:p-10'
           img={frontend}
           imageContainer=''
           imgStyles='mx-auto'
@@ -30,8 +30,9 @@ const LearningPaths = () => {
           headingStyles='text-4xl text-green my-4'
         />
         <CardComponent
-          cardContainer='card-container w-1/2 p-28 shadow-2xl bg-white border-b-4 border-blue rounded-lg'
+          cardContainer='card-container flex flex-col items-center justify-center sm:w-1/2 md:p-28 bg-white shadow-2xl border-b-4 border-blue rounded-lg px-2 sm:p-10'
           img={backend}
+          imgStyles='mx-auto'
           list1='LEARN DS AND ALGORITHMS'
           list2='LEARN JAVA PROGRAMMING'
           listStyles='text-xl py-1 text-gray'

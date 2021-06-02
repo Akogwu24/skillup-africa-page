@@ -11,13 +11,13 @@ const FAQ = ({ question, answer }) => {
   };
 
   return (
-    <div className=' faq border-t-2 flex justify-between w-2/3 mx-auto py-5'>
+    <div className=' faq border-t-2 flex justify-between w-11/12 sm:w-2/3 mx-auto py-5'>
       <div>
         <p className='text-2xl mb-5'>{question || 'what are....'}</p>
         {answerDisplay && <p className='text-lg'>{answer || 'lorem  mre'}</p>}
       </div>
 
-      <div onClick={handleClick}>
+      <div className='flex-shrink-0' onClick={handleClick}>
         {click ? <img src={cross} alt='faq' /> : <img src={plus} alt='faq' />}
       </div>
     </div>
