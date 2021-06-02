@@ -14,7 +14,7 @@ const ContactUs = () => {
         />
       </div>
 
-      <div className='flex flex-col space-y-6 px-5 mx-auto w-2/5 mx-auto'>
+      <div className='contact-us flex flex-col space-y-6 px-5 mx-auto w-2/5 mx-auto'>
         <input
           type='text'
           placeholder='Name*'

@@ -6,9 +6,9 @@ import arrow from '../assets/icons/Arrow.svg';
 const NavBar = () => {
   return (
     <div className='nav-bar flex justify-between items-center'>
-      <Logo />
+      <Logo logoContainerStyle='w-60' />
       <div className='flex justify-between items-center gap-24'>
-        <NavLinks ulStyles='flex text-xl gap-24 text-green-dark' />
+        <NavLinks ulStyles='flex text-xl gap-10 lg:gap-24 text-green-dark' />
         <button className='nav-btn'>
           Apply Now <img src={arrow} alt='btn' />
         </button>

@@ -11,7 +11,7 @@ const Text = ({
   textContainer,
 }) => {
   return (
-    <div className={textContainer}>
+    <div className={`text ${textContainer}`}>
       <p className={preheaderStyle}>{preHeader}</p>
       <h1 className={headerStyle}>{header}</h1>
       <p className={paragraphStyle}>{firstParagraph}</p>

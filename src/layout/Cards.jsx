@@ -10,7 +10,7 @@ const Cards = () => {
         heading='Entry Requirement'
         list1='Applicants must posses background     knowledge of the subject matter'
         list2='Applicant must reside in Abuja'
-        listStyles='list-disc text-lg py-2'
+        listStyles='list-disc text-xl py-2'
       />
       <CardComponent
         cardContainer='bg-gray-light px-10 flex-1 shadow-xl h-72 py-10 '

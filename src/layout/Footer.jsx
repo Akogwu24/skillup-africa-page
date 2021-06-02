@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className='border-t border-gray-semilight mt-10'>
       <section className='container my-10 flex justify-between items-start'>
         <div className='pl-10'>
-          <Logo />
+          <Logo logoContainerStyle='w-60 block' />
           <div className='flex items-end mt-3'>
             <img src={location} alt='location' className='w-7' />
             <p>In Ac Felis Quis Torrorin Ac Felis Quis</p>

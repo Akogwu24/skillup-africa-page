@@ -11,7 +11,6 @@ const About = () => {
       </div>
       <div className='w-1/2'>
         <Text
-          textContainer=''
           preHeader='What is it about?'
           preheaderStyle='red-hat-display text-blue text-2xl font-bold'
           header='About The Internship'

@@ -25,7 +25,7 @@ const LearningPaths = () => {
           list1='LEARN HTML'
           list2='LEARN CSS'
           list3='LEARN JAVASCRIPT'
-          listStyles='text-lg py-1 text-gray'
+          listStyles='text-xl py-1 text-gray'
           heading='Frontend Development'
           headingStyles='text-4xl text-green my-4'
         />
@@ -34,7 +34,7 @@ const LearningPaths = () => {
           img={backend}
           list1='LEARN DS AND ALGORITHMS'
           list2='LEARN JAVA PROGRAMMING'
-          listStyles='text-lg py-1 text-gray'
+          listStyles='text-xl py-1 text-gray'
           heading='Backend Development'
           headingStyles='text-4xl text-green my-4'
         />
