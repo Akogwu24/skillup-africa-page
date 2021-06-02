@@ -82,4 +82,8 @@ hr {
 }
 
 @media (max-width: 650px) {
+  .nav-btn {
+    width: 120px;
+    padding: 1rem;
+  }
 }
