@@ -15,8 +15,8 @@ const Hero = () => {
         building a career in Tech by providing a robust industry-standard
         experience characterised by measurable hands-on training crafted to
         help you suceed.'
-          headerStyle='red-hat-display text-green text-5xl md:text-6xl font-bold'
-          paragraphStyle='text-xl md:text-2xl leading-10 text-gray my-8 text-justify md:text-left'
+          headerStyle='red-hat-display text-green text-5xl md:text-6xl font-bold md:text-left'
+          paragraphStyle='text-xl sm:text-2xl leading-10 text-gray my-8 text-justify md:text-left'
         />
         <Button
           btnStyles='bg-blue text-2xl py-5 px-16 rounded-xl'

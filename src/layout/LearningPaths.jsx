@@ -16,7 +16,7 @@ const LearningPaths = () => {
         />
       </div>
 
-      <div className='flex flex-col sm:flex-row justify-between items-center px-20 gap-36 text-center sm:px-5 sm:gap-10'>
+      <div className='flex flex-col sm:flex-row justify-between items-center px-2 sm:px-20 gap-36 text-center sm:px-5 sm:gap-10'>
         <CardComponent
           cardContainer='card-container flex flex-col items-center justify-center sm:w-1/2 md:p-28 bg-white shadow-2xl border-b-4 border-blue rounded-lg sm:p-10'
           img={frontend}

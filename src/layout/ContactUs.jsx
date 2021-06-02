@@ -14,7 +14,7 @@ const ContactUs = () => {
         />
       </div>
 
-      <div className='contact-us flex flex-col space-y-6 sm:px-5 mx-auto w-11/12 sm:w-4/5'>
+      <div className='contact-us flex flex-col space-y-6 sm:px-5 mx-auto w-11/12 sm:w-4/5 md:w-1/2'>
         <input
           type='text'
           placeholder='Name*'
@@ -32,7 +32,7 @@ const ContactUs = () => {
           placeholder='Brief note'
           className='p-5 border-2 border-gray-semilight rounded-md'
         ></textarea>
-        <Button children='Submit' btnStyles='sm:w-2/3 text-3xl' />
+        <Button children='Submit' btnStyles='sm:w-1/3 text-3xl' />
       </div>
     </section>
   );

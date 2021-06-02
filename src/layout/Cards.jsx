@@ -3,7 +3,7 @@ import CardComponent from '../components/CardComponent';
 
 const Cards = () => {
   return (
-    <div className='requirement-container container my-10 flex flex-col justify-between md:gap-16 gap-5 items-center px-5 py-10'>
+    <div className='requirement-container container my-10 flex flex-col md:flex-row justify-between md:gap-16 gap-5 items-center px-5 py-10'>
       <CardComponent
         cardContainer='bg-gray-light flex-1 shadow-lg md:shadow-xl h-72 px-10 py-10 my-5 w-full sm:w-2/3'
         headingStyles='text-green-dark text-4xl pb-3 text-center'

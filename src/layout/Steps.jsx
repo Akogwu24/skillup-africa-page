@@ -13,8 +13,8 @@ import four from '../assets/icons/04.svg';
 const Steps = () => {
   return (
     <>
-      <section className='step-container container my-10 2xl:px-44 flex flex-col-reverse text-center justify-between gap-20 items-center'>
-        <div className='flex flex-col sm:w-3/5'>
+      <section className='step-container container my-10 2xl:px-44 flex flex-col-reverse md:flex-row text-center justify-between gap-20 items-center'>
+        <div className='flex flex-col lg:flex-row sm:w-3/5 md:w-1/2'>
           <div className='number-one mr-10 sm:mr-0'>
             <img src={one} alt='one' />
           </div>
@@ -29,16 +29,16 @@ const Steps = () => {
           </div>
         </div>
 
-        <div className='steps w-11/12 sm:w-2/5'>
+        <div className='steps w-11/12 sm:w-2/5 md:w-1/2'>
           <img className='w-full' src={applyImage} alt='mask girl' />
         </div>
       </section>
 
-      <section className='step-container container my-20 2xl:px-44 flex flex-col justify-between gap-20 items-center text-center'>
-        <div className='steps w-11/12 sm:w-2/5'>
+      <section className='step-container container my-20 2xl:px-44 flex flex-col md:flex-row justify-between space-x-20 items-center text-center'>
+        <div className='steps w-11/12 sm:w-2/5 md:w-1/2'>
           <img className='w-full' src={manLeft} alt='mask girl' />
         </div>
-        <div className='flex flex-col sm:ml-20 sm:pl-20 sm:w-3/5 sm:ml-0 sm:pl-0'>
+        <div className='flex flex-col md:ml-20 lg:pl-20 sm:w-3/5 sm:ml-0 sm:pl-0 md:w-1/2'>
           <div className='number-one mr-10'>
             <img src={two} alt='two' />
           </div>
@@ -53,8 +53,8 @@ const Steps = () => {
         </div>
       </section>
 
-      <section className='step-container container my-20 2xl:px-44 flex flex-col-reverse justify-between gap-20 items-center text-center'>
-        <div className='flex flex-col sm:w-3/5'>
+      <section className='step-container container my-20 2xl:px-44 flex flex-col-reverse md:flex-row justify-between gap-20 items-center text-center'>
+        <div className='flex flex-col sm:w-3/5 md:w-1/2'>
           <div className='number-one mr-10'>
             <img src={three} alt='one' />
           </div>
@@ -68,16 +68,16 @@ const Steps = () => {
           </div>
         </div>
 
-        <div className='steps w-11/12 sm:w-2/5'>
+        <div className='steps w-11/12 sm:w-2/5 md:w-1/2'>
           <img className='w-full' src={manRight} alt='mask girl' />
         </div>
       </section>
 
-      <section className='step-container container my-20 2xlpx-44 flex flex-col justify-between gap-20 items-center text-center'>
-        <div className='steps w-11/12 sm:w-2/5'>
+      <section className='step-container container my-20 2xl:px-44 flex flex-col md:flex-row justify-between gap-20 items-center text-center'>
+        <div className='steps w-11/12 sm:w-2/5 md:w-1/2'>
           <img className='w-full' src={girlLeft} alt='girl-left' />
         </div>
-        <div className='flex flex-col sm:ml-20 sm:pl-20 sm:w-3/5'>
+        <div className='flex flex-col md:ml-20 lg:pl-20 sm:w-3/5 md:w-1/2'>
           <div className='number-one mr-10'>
             <img src={four} alt='two' />
           </div>
