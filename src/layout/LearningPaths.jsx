@@ -16,9 +16,10 @@ const LearningPaths = () => {
         />
       </div>
 
-      <div className='flex flex-col sm:flex-row justify-between items-center px-2 sm:px-20 gap-36 text-center sm:px-5 sm:gap-10'>
+      <div className='flex flex-col sm:flex-row justify-between items-center lg:justify-center lg:gap-32 px-2 sm:px-20 gap-36 text-center sm:px-5 sm:gap-10'>
         <CardComponent
-          cardContainer='card-container flex flex-col items-center justify-center sm:w-1/2 md:p-28 bg-white shadow-2xl border-b-4 border-blue rounded-lg sm:p-10'
+          aosProps='zoom-out-left'
+          cardContainer='card-container flex flex-col items-center justify-center sm:w-1/2 lg:w-1/3  md:p-28 bg-white shadow-2xl border-b-4 border-blue rounded-lg sm:p-10'
           img={frontend}
           imageContainer=''
           imgStyles='mx-auto'
@@ -30,7 +31,8 @@ const LearningPaths = () => {
           headingStyles='text-4xl text-green my-4'
         />
         <CardComponent
-          cardContainer='card-container flex flex-col items-center justify-center sm:w-1/2 md:p-28 bg-white shadow-2xl border-b-4 border-blue rounded-lg px-2 sm:p-10'
+          aosProps='zoom-out-right'
+          cardContainer='card-container flex flex-col items-center justify-center sm:w-1/2 lg:w-1/3 md:p-28 bg-white shadow-2xl border-b-4 border-blue rounded-lg px-2 sm:p-10'
           img={backend}
           imgStyles='mx-auto'
           list1='LEARN DS AND ALGORITHMS'

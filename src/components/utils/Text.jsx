@@ -9,9 +9,10 @@ const Text = ({
   headerStyle,
   paragraphStyle,
   textContainer,
+  aosProps,
 }) => {
   return (
-    <div className={`text ${textContainer}`}>
+    <div data-aos={aosProps} className={`text ${textContainer}`}>
       <p className={preheaderStyle}>{preHeader}</p>
       <h1 className={headerStyle}>{header}</h1>
       <p className={paragraphStyle}>{firstParagraph}</p>

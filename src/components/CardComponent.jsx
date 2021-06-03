@@ -12,9 +12,10 @@ const CardComponent = ({
   listStyles,
   cardContainer,
   imageContainer,
+  aosProps,
 }) => {
   return (
-    <div className={cardContainer}>
+    <div data-aos={aosProps} className={cardContainer}>
       <div className={imageContainer}>
         {img ? <img className={imgStyles} src={img} alt='img' /> : ''}
       </div>
